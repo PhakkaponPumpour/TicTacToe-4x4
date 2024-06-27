@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# TicTacToe 4x4 Game with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+โปรเจกต์เกม Tic-Tac-Toe ที่พัฒนาด้วย React มีการใช้งาน useState และ useEffect hooks เพื่อจัดการสถานะของเกม และรองรับการเล่นในขนาด 4x4.
+**ทดลองเล่นได้ที่** 
+[TicTacToe4x4 By Phakkapon ](https://tictactoe4x4byphakkapon.netlify.app/)
+# ตัวอย่าง Game
+![สกรีนช็อต 2024-06-27 164245](https://github.com/PhakkaponPumpour/TicTacToe-4x4/assets/134637954/646bdcdc-3926-4ebd-a2b1-0677af606d30)
+## การติดตั้ง (Installation)
 
-## Available Scripts
+1.  **Clone โปรเจค**
+	```bash
+	git clone https://github.com/PhakkaponPumpour/TicTacToe-4x4.git
+	```
+2.  **จากนั้น cd ไปที่โปรเจคที่เราได้ Clone มา**
+	```bash 
+	cd TicTacToe-4x4
+	```
+3.	**ติดตั้ง dependencies:**
+	```bash 
+	npm install 
+	```
+4.  **เริ่มต้นการใช้งาน**
+	```bash 
+	npm start
+	```
+5.	 **เปิดเบราว์เซอร์และไปที่:**
+		``` http://localhost:3000 ```
 
-In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## โครงสร้างโปรเจกต์ (Project Structure)
+ - **public/**: โฟลเดอร์ที่เก็บไฟล์สาธารณะ เช่น index.html 
+ - **src/**: โฟลเดอร์ที่เก็บไฟล์ซอร์สโค้ดหลัก 
+ - **components/**: โฟลเดอร์ที่เก็บคอมโพเนนต์ของ React 
+	- **Board.jsx**
+	- **GameHistorry.jsx** 		
+	- **GameOver.jsx** 	
+	- **GameState.js** 		
+	- **Board.jsx** 		
+	- **Reset.jsx**
+	- **Strike.jsx** 		
+	- **TicTacToe.jsx** 		
+	- **Tile.jsx**
+ - **App.js**: คอมโพเนนต์หลักของแอปพลิเคชัน 
+ -  **index.js**: ไฟล์เริ่มต้นของแอปพลิเคชัน 
+ - **App.css**: ไฟล์สไตล์ของแอปพลิเคชัน
+## การออกแบบโปรแกรม (Application Design)
+สร้าง Diagram ขึ้นมา เพื่อจัดการ Component ส่วนต่างๆทีต้องการจะใช้
+![สกรีนช็อต 2024-06-27 164145](https://github.com/PhakkaponPumpour/TicTacToe-4x4/assets/134637954/1c0e943d-f79c-44df-8ebd-d68aa4dd4787)
