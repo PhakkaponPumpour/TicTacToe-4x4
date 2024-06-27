@@ -1,4 +1,4 @@
-# TicTacToe 4x4 Game with React
+# TicTacToe 4x4 Game (Easy Bot) with React
 
 โปรเจกต์เกม Tic-Tac-Toe ที่พัฒนาด้วย React มีการใช้งาน useState และ useEffect hooks เพื่อจัดการสถานะของเกม และรองรับการเล่นในขนาด 4x4.
 **ทดลองเล่นได้ที่** 
