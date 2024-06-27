@@ -4,7 +4,8 @@
 **ทดลองเล่นได้ที่** 
 [TicTacToe4x4 By Phakkapon ](https://tictactoe4x4byphakkapon.netlify.app/)
 # ตัวอย่าง Game
-![สกรีนช็อต 2024-06-27 164245](https://github.com/PhakkaponPumpour/TicTacToe-4x4/assets/134637954/646bdcdc-3926-4ebd-a2b1-0677af606d30)
+![download](https://github.com/PhakkaponPumpour/TicTacToe-4x4/assets/134637954/ec1dbb5a-b4de-4c0c-9328-7c7594d7f696)
+
 ## การติดตั้ง (Installation)
 
 1.  **Clone โปรเจค**
